@@ -89,7 +89,7 @@ else
 endif
 
 install:	$(ALL)
-	install -m 0755 -d                             $(DESTDIR)/opt/pigpio/cgi
+	# install -m 0755 -d                             $(DESTDIR)/opt/pigpio/cgi
 	install -m 0755 -d                             $(DESTDIR)$(includedir)
 	# install -m 0644 pigpio.h                       $(DESTDIR)$(includedir)
 	# install -m 0644 pigpiod_if.h                   $(DESTDIR)$(includedir)
